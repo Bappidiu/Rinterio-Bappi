@@ -100,11 +100,11 @@
         </div>
             <div class="mt-10 max-w-screen-xl lg:mx-auto text-center">
                 <div>
-                    <h1 class="text-5xl font-bold mt-6 ">
+                    <h1 class="text-5xl font-bold mt-6 font-['Manrope']">
                         A barn house of this design has a <br> striking
                         appearance
                     </h1>
-                    <p class="text-gray-400 font-normal text-sm mt-3 ">
+                    <p class="text-#494949 font-['Manrope'] text-sm mt-3 ">
                         The barn house captivates with its blend of rustic
                         charm and modern sophistication, featuring weathered
                         wood, sleek metal <br> accents, and large windows
@@ -171,26 +171,26 @@
           sleek metal accents.
         </div>
 
-        <div class="  card lg:card-side bg-base-100 mb-6">
-          <figure class="ml-4">
-            <img src="./assets/commercial.png" alt="Album" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title font-extrabold font-['Manrope']">Commercial</h2>
-            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-
-          </div>
+        <div
+        class="flex gap-6  p-6 rounded-xl bg-white mt-2">
+        <img src="./assets/commercial.png" alt>
+        <div>
+            <h6 class="text-[#494949] text-xl font-extrabold font-['Manrope']">Commercial</h6>
+            <p class="text-neutral-500 text-base font-medium font-['Manrope']">The barn house
+                captivates with its blend of rustic
+                charm and modern.</p>
         </div>
-        <div class="  card lg:card-side bg-base-100 ">
-          <figure class="ml-4">
-            <img src="./assets/residential.png" alt="Album" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title font-extrabold font-['Manrope']">Residential</h2>
-            <p>The barn house captivates with its blend of rustic charm and modern.</p>
-
-          </div>
-        </div>
+    </div>
+    <div
+    class="flex gap-6 p-6 rounded-xl bg-white mt-2 ">
+    <img src="./assets/residential.png" alt>
+    <div>
+        <h6 class="text-[#494949] text-xl font-extrabold font-['Manrope']">Residential</h6>
+        <p class="text-neutral-500 text-base font-medium font-['Manrope']">The barn house
+            captivates with its blend of rustic
+            charm and modern.</p>
+    </div>
+</div>
       </div>
       <figure>
         <img src="./assets/Rectangle.png" alt="Album" />
@@ -906,7 +906,7 @@
 
   <!----form section---->
 
-  <section class=" text-center mt-2 bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover w-full">
+  <section class=" text-center mt-2 bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover w-full">
                
     <div class="max-w-6xl mx-auto font-semibold pt-[50px]">
       <div class="h-[38.04px] px-4 py-2 bg-[#aaef5e]/20 rounded-3xl flex-col justify-start items-start gap-2.5 inline-flex">
@@ -979,13 +979,14 @@
             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
         </p>
     </div>
-    <div class="flex gap-28  text-white mt-6 justify-center">
-        <h3>Home</h3>
-        <h3>Services</h3>
-        <h3>Portfolio</h3>
-        <h3>Blogs</h3>
-        <h3>ContactUs</h3>
-    </div>
+    <div class="flex flex-col sm:flex-row gap-6 text-white mt-6 justify-center items-center">
+      <h3>Home</h3>
+      <h3>Services</h3>
+      <h3>Portfolio</h3>
+      <h3>Blogs</h3>
+      <h3>ContactUs</h3>
+  </div>
+  
     <div class="flex justify-center p-12">
         <button class="bg-[#97ea38cd] text-black font-extrabold rounded-full p-2 text-lg">
             Book Consult
